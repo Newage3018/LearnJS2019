@@ -13,7 +13,7 @@ function isInteger(num){
 // Конец функции определения - целое число или нет?
 
 // Цикл для проверки работоспособности функции, определяющей целостность числа
-for(i=0;i<=1;i++)
+for(i=0;i<1;i++)
 {
 let testNumber=prompt("Введите число , проверим его целое или нет","");
 isInteger(testNumber);
@@ -23,3 +23,53 @@ isInteger(testNumber);
 //Создайте страницу, которая спрашивает имя и выводит его.
 let message=prompt("Как Вас зовут?","");
 alert('Привет дорогой(ая) '+ message + " !");
+
+//Используя конструкцию if..else, напишите код,
+// который будет спрашивать: «Каково «официальное» название JavaScript?».
+let testName=prompt("Каково официальное название JavaScript?","");
+
+if(testName=="EcmaScript"){
+    alertr("Вы правы!");
+}
+else{
+    alert('Не знаете? "EcmaScript"!');
+}
+
+//Получить знак числа
+//Используя конструкцию if..else, напишите код, который получает значение prompt, а затем выводит alert:
+
+let number1=prompt("Введите любое число","");
+number1= + number1;
+if (number1<0)
+    {
+    alert("-1");
+    }
+
+else if(number1==0)
+        {
+            alert("0");
+        }
+    
+else {alert("1");}
+
+// Проверка логина
+// Напишите код, который будет спрашивать логин (prompt).
+ 
+let whoAreYou=prompt("Кто пришел!","");
+if (whoAreYou==undefined){
+    alert("Вход отменен");
+}
+else if (whoAreYou != "Админ"){
+    alert("Я Вас не знаю");
+}
+else {
+    let passCheck=prompt("Введите пароль","");
+    if(passCheck=="Чёрный Властелин"){
+        alert("Добро пожаловать!");
+    }
+    else{
+        alert("Пароль не верен!");
+    }
+}
+
+    
