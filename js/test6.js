@@ -1,3 +1,16 @@
+//Простой доработано с использованием push
+function reverseArray(testArray){
+    let newArray=[];//создаем новый пустой массив
+    for(let i=0;i<testArray.length;i++)
+    {
+        newArray.push(testArray.length-1-i);//разворачивааем в новом;
+    }
+    return newArray;
+
+}
+
+
+
 //Вариант простой
 function reverseArray(testArray){
     let newArray=[];//создаем новый пустой массив
