@@ -6,12 +6,12 @@ function newArray()
     let testArray=[];// объявление пустого массива, подлежащего заполнению
     
 if(m>n){
-for(i=n;i<=m;i++){//цикл заполнения массива
+for(let i=n;i<=m;i++){//цикл заполнения массива
     testArray.push(i);
     }
 }
 else{
-for(i=n;i>=m;i--){
+for(let i=n;i>=m;i--){
     testArray.push(i);
     }
 }
