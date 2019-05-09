@@ -21,3 +21,11 @@ return list;
 alert(arrayToList(testArr));
 alert(list.next);
 alert(list.value);
+
+
+testList=arrayToList(testArr);
+//Массив из списка
+function listToArray(testList){
+
+
+}
